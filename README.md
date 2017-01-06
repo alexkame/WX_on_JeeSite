@@ -1,6 +1,9 @@
-## Initialed based on [jeesite](https://github.com/thinkgem/jeesite)
+# Initialed based on [jeesite](https://github.com/thinkgem/jeesite)
 
-## How to run
+
+# How to start
+
+## How to **run**
 
 ```bash
 # you can config variable in system environment or in 'mvn.cmd' file
@@ -8,13 +11,13 @@ $ set MAVEN_OPTS=%MAVEN_OPTS% -Xms256m -Xmx512m -XX:PermSize=128m -XX:MaxPermSiz
 $ mvn jetty:run
 ```
 
-## How to compile
+## How to **compile**
 
 ```
 $ mvn compile
 ```
 
-## How to edit with VSCode and debug with Eclipse
+## How to edit with **VSCode** and **debug** with Eclipse
 
 ```bash
 # you can config variable in system environment or in 'mvnDebug.cmd' file
